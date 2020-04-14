@@ -1,0 +1,77 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    background-image: linear-gradient(45deg, #13547a, #80d0c7);
+}
+
+#text {
+    font-family: "montserrat";
+    font-size: 1.5rem;
+    color: aliceblue;
+    width: 100vw;
+    text-align: center;
+    display: block;
+}
+
+#submit {
+    display: none;
+}
+input[type=text] {
+    height: 10vh;
+    width: 20vw;
+    margin-top: 10vh;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    font-size: 3rem;
+    color: #13547a;
+    font-family: monospace;
+    background: transparent;
+    border-color: white;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    text-align: center;
+}
+
+input[type=radio] {
+    transform: scale(1.8);
+    margin: 7px;
+}
+span {
+    padding-right: 20px;
+}
+.before {
+    width: 100vw;
+    text-align: center;
+    padding: 20px;
+    height: 2vh;
+    color: white;
+    font-size: 2rem;
+    font-family: "montserrat";
+    display: block;
+}
+.after {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.acres {
+    margin: 10px;
+    font-size: 1.5rem;
+    font-family: "montserrat";
+    color: white;
+}
+input[type=button] {
+    font-family: monospace;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 2rem;
+    width: 90vw;
+    margin: 20px;
+    padding: 5px;
+    border: none;
+    box-shadow: 0px 10px 15px 0px rbga(0,0,0,2);
+}
